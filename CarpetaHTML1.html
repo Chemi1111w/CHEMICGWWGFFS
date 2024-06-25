@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog CGFFWS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(270deg, #000000, #ffffff, #00FFFF, #32CD32);
+            background-size: 400% 400%;
+            animation: gradientBackground 15s ease infinite;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: auto;
+        }
+
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes vibrate {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(0); }
+        }
+
+        .multicolor-text {
+            background: linear-gradient(90deg, red, blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: vibrate 0.5s infinite;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.85);
+        }
+
+        h1, h2, h4, p, label, input, a {
+            color: white;
+        }
+
+        .centered {
+            text-align: center;
+        }
+
+        img, audio, video {
+            width: 100%;
+            height: auto;
+            border: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover, audio:hover, video:hover {
+            transform: scale(1.05);
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            width: calc(100% - 24px);
+            display: block;
+        }
+
+        .links a {
+            margin: 10px;
+            color: #e74c3c;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            color: #3498db;
+        }
+
+        marquee {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="centered">
+            <font color="red">Si quiere recibir notificaciones ingrese su gmail</font>
+            <br>
+            <label for="gmail"><font color="red">INGRESA TU GMAIL:</font></label>
+            <input type="text" id="gmail">
+        </div>
+        <marquee><h1 class="multicolor-text">Blog CGFFWS</h1></marquee>
+        <p>En 2017, Christian comencé mi viaje en el mundo del gaming competitivo. Con apenas habilidades básicas en el juego Battle Royale, me uní a la comunidad gaming con determinación y pasión. Participé en torneos locales, donde aprendí las mecánicas fundamentales y me conecté con otros jugadores.</p>
+        <div class="centered">
+            <img src="CarpetaHTML1/foto2.jpg" alt="Foto 2">
+        </div>
+        <marquee><h2 class="multicolor-text">2018: Refinando mis Habilidades</h2></marquee>
+        <p>El año siguiente marcó un progreso significativo para mí. Dedicaba horas interminables al juego, perfeccionando mi puntería, estrategias de construcción y toma de decisiones. Me uní a equipos amateur, donde la competencia era intensa pero gratificante. Con cada derrota, aprendí valiosas lecciones y fortalecí mi determinación.</p>
+        <div class="centered">
+            <img src="CarpetaHTML1/foto3.jpg" alt="Foto 3">
+        </div>
+        <marquee><h2 class="multicolor-text">2019: Ascenso a la Competencia Regional</h2></marquee>
+        <p>En 2019, decidí llevar mi pasión al siguiente nivel. Competí en torneos regionales, enfrentándome a jugadores más experimentados y talentosos. A través de la colaboración con mi equipo, perfeccioné la comunicación y la coordinación en el campo de batalla. A pesar de los desafíos, cada partida disputada me acercaba más a mi sueño de convertirme en profesional.</p>
+        <div class="centered">
+            <img src="CarpetaHTML1/moses1.png" alt="Moses 1">
+        </div>
+        <marquee><h2 class="multicolor-text">2020: Consolidando mi Identidad</h2></marquee>
+        <p>El año 2020 marcó un punto de inflexión en mi carrera. Me centré en definir mi estilo de juego único y en desarrollar estrategias innovadoras. Aproveché las redes sociales y plataformas de streaming para compartir mis hazañas y conectarme con una audiencia más amplia. Mi dedicación y carisma me convirtieron en una figura respetada dentro de la comunidad gaming.</p>
+        <div class="centered">
+            <img src="CarpetaHTML1/foto6.jpg" alt="Foto 6">
+        </div>
+        <marquee><h2 class="multicolor-text">2021: Reconocimiento Internacional</h2></marquee>
+        <p>En 2021, el arduo trabajo comenzó a dar frutos. Participé en torneos internacionales, donde demostré mi destreza frente a jugadores de todo el mundo. Mi nombre comenzó a ser reconocido en la escena competitiva, atrayendo la atención de organizaciones profesionales y patrocinadores.</p>
+        <div class="centered">
+            <img src="CarpetaHTML1/foto7.png" alt="Foto 7">
+        </div>
+        <marquee><h2 class="multicolor-text">2022: El Salto a la Profesionalidad</h2></marquee>
+        <p>El año 2022 marcó un hito en mi carrera, cuando finalmente fui reclutado por un equipo profesional de eSports. Me convertí en jugador oficial, compitiendo en los torneos más prestigiosos y representando a mi equipo con honor y determinación. Mi dedicación y habilidades excepcionales me llevaron a nuevas alturas en el mundo del gaming.</p>
+        <div class="centered">
+            <img src="CarpetaHTML1/foto8.jpeg" alt="Foto 8">
+        </div>
+        <marquee><h2 class="multicolor-text">2023: Consagración y Consistencia</h2></marquee>
+        <p>El año pasado fue testigo de la consolidación de mi posición como una fuerza dominante en el escenario internacional. Con una ética de trabajo impecable y un enfoque inquebrantable, continué cosechando éxitos y acumulando victorias. Me convertí en un referente para aspirantes a jugadores de todo el mundo, inspirándolos a perseguir sus sueños con pasión y determinación.</p>
+        <div class="centered">
+            <img src="CarpetaHTML1/foto9.jpeg" alt="Foto 9">
+        </div>
+        <marquee><h2 class="multicolor-text">30 de Mayo de 2024: Mi Legado Continúa</h2></marquee>
+        <div class="centered">
+            <img src="CarpetaHTML1/foto10.png" alt="Foto 10">
+        </div>
+        <marquee><h2 class="multicolor-text">Hoy</h2></marquee>
+        <p>Sigo desafiando los límites y persiguiendo la grandeza en el mundo del gaming. Mi viaje desde humildes comienzos hasta la cima del éxito es un testimonio de mi dedicación, perseverancia y talento innato. Con cada partida jugada, continúo inspirando a otros a seguir mis pasos y a alcanzar nuevas alturas en el competitivo mundo de los eSports.</p>
+        <div class="centered">
+            <audio controls>
+                <source src="CarpetaHTML1/c418.mp3" type="audio/mpeg">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </div>
+        <div class="centered">
+            <video autoplay muted loop>
+                <source src="CarpetaHTML1/casa.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+        <div class="links centered">
+            <a href="https://ffsoporte.garena.com/hc/es-419">Google</a>
+            <a href="https://youtube
